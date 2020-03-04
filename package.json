@@ -1,7 +1,9 @@
 {
+  "bin": {
+    "mkvmergeaudio": "main.js"
+  },
   "name": "parser_js",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +12,19 @@
   "license": "ISC",
   "devDependencies": {
     "needle": "^2.3.2"
-  }
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KULLEP/GitSite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KULLEP/GitSite/issues"
+  },
+  "homepage": "https://github.com/KULLEP/GitSite#readme",
+  "description": ""
 }
